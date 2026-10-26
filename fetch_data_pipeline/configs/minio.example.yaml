@@ -1,0 +1,8 @@
+minio:
+  endpoint: adc-ecos.enlightcloud.com
+  access_key: YOUR_MINIO_ACCESS_KEY
+  secret_key: YOUR_MINIO_SECRET_KEY
+  secure: true
+
+  bucket: 6189-enlight-ai-datalake
+  base_path: influxdb/monitoring-data

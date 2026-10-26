@@ -1,0 +1,15 @@
+pipeline:
+  retention_days: 30         # 180
+  min_history_days: 20       # 90
+  fetch_window_days: 180     # 180
+  fetch_frequency: 1m
+  time_chunk_days: 3
+  raw_part_rows: 2000000
+
+logging:
+  enabled: true
+  base_path: influxdb/monitoring-data/metadata
+
+
+
+

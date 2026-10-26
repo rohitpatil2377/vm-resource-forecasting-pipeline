@@ -1,0 +1,20 @@
+influxdb:
+  # InfluxDB server URL (with protocol)
+  url: http://YOUR_HOST:30191
+
+  # Organization name
+  org: enlight360
+
+  # Bucket where cpu_usage & memory_usage already exist
+  bucket: monitoring-bucket
+
+  # Authentication token
+  # (recommended to keep this in env vars in prod)
+  token: YOUR_INFLUXDB_TOKEN
+
+
+  # Write tuning (safe defaults)
+  batch_size: 5000
+  flush_interval_ms: 5000
+  jitter_interval_ms: 1000
+  retry_interval_ms: 5000

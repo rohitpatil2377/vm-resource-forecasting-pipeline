@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+
+# Secrets / config
+.env
+*.env
+config/secrets*
+*.pem
+*.key
+
+# Data, models, logs
+*.csv
+*.parquet
+*.pkl
+*.joblib
+*.h5
+*.pt
+models/
+data/
+logs/
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.ipynb_checkpoints/
+.DS_Store
+
+# Real configs with credentials (use *.example.yaml templates instead)
+fetch_data_pipeline/configs/minio.yaml
+fetch_data_pipeline/configs/influxdb.yaml
+forecast_to_influx_pipeline/config/minio.yaml
+forecast_to_influx_pipeline/config/influxdb.yaml
+vm_forecasting_pipeline/config/minio.yaml
+vm_forecasting_pipeline/config/influxdb.yaml
+fetch_data_pipeline/test.ipynb
+fetch_data_pipeline/configs/vm_source.yaml

@@ -1,0 +1,5 @@
+pipeline:
+  history_months: 6
+  fetch_frequency: 1m
+  resample_frequency: 15min
+  forecast_horizon_days: 15

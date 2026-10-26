@@ -1,0 +1,10 @@
+influxdb:
+  url: http://YOUR_HOST:30191
+  org: enlight360
+  bucket: monitoring-bucket
+
+  # TEMP: hardcoded token (DEV ONLY)
+
+
+  token: YOUR_INFLUXDB_TOKEN
+

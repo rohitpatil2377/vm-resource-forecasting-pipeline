@@ -1,0 +1,17 @@
+minio:
+  # MinIO server endpoint (without protocol)
+  endpoint: adc-ecos.enlightcloud.com
+
+  # Access credentials
+  access_key: YOUR_MINIO_ACCESS_KEY
+  secret_key: YOUR_MINIO_SECRET_KEY
+
+  # Use true if MinIO is behind HTTPS
+  secure: true
+
+  # Bucket where data is stored
+  bucket: 6189-enlight-ai-datalake
+
+  # Root prefix where monitoring data lives
+  # (this keeps paths consistent across pipelines)
+  prefix: influxdb/monitoring-data
